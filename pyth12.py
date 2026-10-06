@@ -1,0 +1,5 @@
+a=list(map(int,input("enter first list:").split()))
+b=list(map(int,input("enter second list:").split()))
+print("same length:",len(a)==len(b))
+print("same sum:",sum(a)==sum(b))
+print("common values:",bool(set(a) & set(b)))
